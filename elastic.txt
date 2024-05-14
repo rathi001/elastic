@@ -1,0 +1,13 @@
+The generated password for the elastic built-in superuser is : qSB_kayNTCwsErGbjiPL
+
+_______________________________________________________________________________________________________________
+
+
+java -javaagent:/home/ubuntu/elastic-agent-java/elastic-apm-agent-1.33.0.jar \
+-Delastic.apm.service_name=java-app \
+-Delastic.apm.server_urls=http://localhost:8200 \
+-Delastic.apm.secret_token=40ebb03a93fe42807c24d56cf68b96cc225e5e683ee808ac8f9adbf8a370c71b \
+-Delastic.apm.environment=production \
+-Delastic.apm.application_packages=org.example \
+-jar .jar
+___________________________________________________________________________________________________________
